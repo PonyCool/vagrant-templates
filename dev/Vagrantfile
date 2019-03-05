@@ -50,8 +50,10 @@ Vagrant.configure("2") do |config|
   # 禁止默认的共享文件夹
   config.vm.synced_folder ".", "/vagrant", disabled: true
   # mac 共享目录
-  config.vm.synced_folder "/Users/pony/Documents/dev", "/mnt",
-    owner: "root", group: "root", create: true
+  # config.vm.synced_folder "/Users/pony/Documents/dev", "/mnt",
+  #  owner: "root", group: "root", create: true
+  # window 共享目录
+  config.vm.synced_folder "D:/Dev", "/mnt", create: true
   #
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
