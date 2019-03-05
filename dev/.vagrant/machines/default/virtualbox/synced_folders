@@ -1,0 +1,1 @@
+{"virtualbox":{"/mnt":{"owner":"root","group":"root","create":true,"guestpath":"/mnt","hostpath":"/Users/pony/Documents/dev","disabled":false,"__vagrantfile":true}}}
